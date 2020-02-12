@@ -1,0 +1,69 @@
+.container {
+    height: 800px;
+    width: 100%;
+}
+
+.container-image {
+    width: 100%;
+    display: block; /* need this to use margin-auto*/
+    margin: auto;
+    margin-top: 25px;
+
+}
+
+.container-audio {
+    display: block; /* need this to use margin-auto*/
+    margin: auto;
+    margin-top: 25px;
+}
+
+.container-video {
+    margin-top: 25px;
+}
+    .about-box {
+    height: 700px;
+    width: 30%;
+    border: 3px solid #000;
+    float: left;
+    margin-top: 90px; 
+    margin-left: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-box2 {
+    position: relative;
+ /* top: 10px;*/
+
+    }
+
+audio{
+    position: relative;
+}
+
+/* centering audio: padding
+(doesnt work with mobile), see .about-box2, 
+margin-mobile friendly, margin-auto, */
+
+.about-box p {
+    margin-top: 45px;
+
+}
+
+.contact-container {
+    height: 1000px;
+    width: 100%;
+}
+
+.contact-map, .contact-form {
+    position: relative;
+    top: 125px;
+    left: 36%;
+    border: 3px solid #000;
+      /* display: block;
+    margin: auto;
+} */
+}
+/* ********************End of About**************/
+
+/* Did I put stuff from contact in my about? */

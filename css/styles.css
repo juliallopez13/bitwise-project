@@ -1,0 +1,185 @@
+ /* global text */
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Great Vibes', cursive;
+    
+
+
+}
+
+.nav-bar {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    background-color:rgba(255, 204, 153, .8);
+/* background-color: rgba(0214, 174, 125, .5); */
+    z-index: 1;
+
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin: 15px 0px 0px 15px;
+}
+
+.nav-list {
+     float: right; 
+    /* height: 80px;
+    width: 100px; this section would be applied when using float on the list-item*/
+    /* display: inline-block; */
+}
+
+.list-item{
+     display: inline-block;
+    /*float: left;
+    text-decoration: none; this removes the underline of the link
+    list-style-type: none; this removes the bullet points*/
+    /* border: 3px solid
+    #ffcc99; */
+    border: 3px solid #ffd9b3;
+    border-style: outset;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.list-item:hover {
+     color: rgb(255,179,102);
+    /* border: 3px solid #000;*/
+     /*border: 3px dashed #fff;*/
+     /*border-radius: 50%; creates a circle around*/
+     /*border-radius: 8px; creates oval around*/
+    /* border-bottom: none;
+     border-radius: 12px 12px 0px 0px;*/
+}
+
+/****************End of Nav********************/
+
+.hero-img {
+    
+    background-image: url("../img/sand.jpg");
+    width: 100%;
+    height: 800px;
+    margin-top: 80px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    
+
+
+
+}
+
+.hero-text-box {
+    height: 100px;
+    width: 500px;
+    /* background-color: rgba(255, 217, 179, .3); */
+    position: relative;
+    top: 492px;
+    left: 2%;
+
+
+}
+    
+
+/*************************End of Main********************/
+
+.home-img {
+    width: 100%;
+}
+
+.hero-text {
+
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 100px;
+    color:#ffd9b3;
+    
+    /* text text-shadow: ; */
+    /* line-height: ; */
+    /* letter-spacing: ; */
+
+
+}
+
+
+
+.home-img2 {
+    width: 100%;
+}
+section{
+  /* height: 950px; */
+  margin-top: 75px;
+}
+
+.sec-box {
+    /* display: inline-block; */
+    border: 10px solid #ffd9b3;
+    border-style:inset;
+    width: 45%;
+    margin-left: 35px;
+    height: 920px;
+    float: left; 
+    margin-bottom: 50px;
+}
+
+
+.footer {
+    background-color: #ffcc99;
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+
+.input, .social, .copy {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.fab {
+    font-size: 2em;
+    /* text-decoration:  */
+   
+}
+
+.fa-facebook {
+    font-size: 2em;
+    color:#ffb366;
+    /* margin-right: 15px; */
+}
+
+.fa-instagram {
+    font-size: 2em;
+    color:#ffb366;
+    /* margin-right: 15px; */
+
+}
+
+.fa-pinterest-p {
+    font-size: 2em;
+    color:#ffb366;
+    /* margin-right: 15px; */
+}
+
+/*************End of Index Styles******/
+
+/* .container {
+    height: 800px;
+    width: 100px;
+}
+
+    .about-box {
+    height: 700px;
+    width: 30%;
+    border: 3px solid #000;
+} */
+
+
+
