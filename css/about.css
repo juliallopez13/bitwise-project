@@ -4,10 +4,12 @@
 }
 
 .container-image {
-    width: 100%;
+    width: 87%;
+    border-style: outset; 
     display: block; /* need this to use margin-auto*/
     margin: auto;
     margin-top: 25px;
+    border: 10px outset #ffd9b3;
 
 }
 
@@ -19,11 +21,15 @@
 
 .container-video {
     margin-top: 25px;
+    border-style: outset;
+    border: 10px outset #ffd9b3;
+    
 }
     .about-box {
     height: 700px;
     width: 30%;
-    border: 3px solid #000;
+    border: 3px solid #ffd9b3;
+    border-radius: 15px;
     float: left;
     margin-top: 90px; 
     margin-left: 35px;
@@ -47,23 +53,13 @@ margin-mobile friendly, margin-auto, */
 
 .about-box p {
     margin-top: 45px;
+    padding: 0px 20px;
 
+   
 }
 
-.contact-container {
-    height: 1000px;
-    width: 100%;
-}
 
-.contact-map, .contact-form {
-    position: relative;
-    top: 125px;
-    left: 36%;
-    border: 3px solid #000;
-      /* display: block;
-    margin: auto;
-} */
-}
+
+
 /* ********************End of About**************/
 
-/* Did I put stuff from contact in my about? */

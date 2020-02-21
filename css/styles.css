@@ -110,8 +110,9 @@ body {
 
 .home-img2 {
     width: 100%;
+    height: 50%;
 }
-section{
+section {
   /* height: 950px; */
   margin-top: 75px;
 }
@@ -126,6 +127,32 @@ section{
     float: left; 
     margin-bottom: 50px;
 }
+
+.home-text {
+    text-align: left;
+}
+/* .sec-box-2 {
+    border: 10px solid #ffd9b3;
+    border-style: inset;
+    width: 94%;
+    margin-left: 35px;
+    height: 920px;
+    float: left; 
+    margin-bottom: 50px;
+
+} */
+
+/* .anotherbox {
+    width: 100%;
+    height: 920px;
+}
+
+.item {
+    width: 94%;
+    height: 920px;
+} */
+
+
 
 
 .footer {
@@ -181,5 +208,6 @@ section{
     border: 3px solid #000;
 } */
 
+ 
 
 
